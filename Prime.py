@@ -10,5 +10,5 @@ while True:
             if not n%i:
                 print("Not Prime number")
                 break
-        else:
+        else:#⭐a clever use of for-else in Python
             print("Prime number");
