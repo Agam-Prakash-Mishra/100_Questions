@@ -1,10 +1,10 @@
-while True:
+while True:#12001
     n = int(input("Enter a number: "))
     base = 10
     pow = 0
     newNum = 0
     while n:
-        rem = n%base
+        rem = n%10
         if rem ==0:
             newNum = newNum + base**pow
             pow += 1
