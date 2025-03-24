@@ -1,7 +1,7 @@
 while True:
     month = int("Enter the month (1-12): ")
     year = int("Enter the year: ")
-    if ((month ==2) and ((year%4==0) or ((year%100==0) and (year%400==)))):
+    if (month ==2) and ((year%4==0) or ((year%100==0) and (year%400==0))):
         print("Number of days in: 29")
     elif month==2:
         print("Number of days in: 28")
